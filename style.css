@@ -5,7 +5,7 @@ main {
 }
 
 body header h1 {
-    text-shadow: 3px 3px 5px rgba(14, 13, 13, 0.7);
+    text-shadow: 3px 3px 5px rgba(238, 178, 114, 0.7);
     display: flex;
             justify-content: center;
             align-items: center;
@@ -51,6 +51,8 @@ section strong a {
     padding-left: 40%;
     padding-top: 10%;
     padding-bottom: 10%;
+    display: inline-block;
+    margin: 0;
 }
 
 footer {
@@ -63,3 +65,15 @@ footer {
     border-top: 1px solid #ccc;
 }
 
+.hover-link{
+    color: white
+    transition: color 0.3s ease
+}
+
+.hover-link:hover {
+    color: lightblue;
+}
+
+main section h4{
+    padding-left: 20px;
+}
