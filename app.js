@@ -7,7 +7,7 @@ function yourName() {
 
 function favoriteSong() {
     let song = prompt ('What\'s your favorite song?');
-    return document.write(`Great song choice, I love "${song}"`);
+    return document.write("Great song choice, I love \"" + song + "\"");
 }
 
 function timeOfDay() {
