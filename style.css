@@ -77,3 +77,8 @@ footer {
 main section h4{
     padding-left: 20px;
 }
+
+div {
+    text-align: center;
+    background-color: rgb(35, 34, 34);   
+}
